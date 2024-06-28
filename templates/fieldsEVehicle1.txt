@@ -1,0 +1,25 @@
+Q, 685, 970, 150, 1,^ticketletter^ticketnumber
+
+CTS"google.com",30,970,16,000000,1,^ticketletter^ticketnumber
+
+R, 30, 738, 810, 25, ^isafv, 1, Y
+BT, 420, 745, 16, FFFFFF, 1,AFV
+
+PT, 17, Y, 13, 000000, 1
+30,920,^depportdescr ^depdate ^deptime
+250,920,^depgate
+350,920,^destportdescr ^arrdate ^arrtime
+600,920,^vesselname
+30,845,^ticketletter-^ticketnumber
+180,845,^bookingref
+330,845,^bookdate ^booktime
+550,845,^agencycode/^usercode
+700,845,^loyaltycard
+30,770,^registrationno
+330,770,^classname
+550,770,^discountcode
+30,670,^priority
+180,670,^netfare
+330,670,^taxes
+550,670,^vat
+700,670,€ ^totalprice

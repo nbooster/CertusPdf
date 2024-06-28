@@ -1,0 +1,33 @@
+Q, 465, 670, 100, 1,^ticketletter^ticketnumber
+
+BA, #, 800, 555, 10, 0129A6, 1,^compname
+A, #, 790, 555, 10, 0129A6, 1,^compaddress, ^compzip - ^compcity
+A, #, 780, 555, 10, 0129A6, 1,ΔΟΥ ^compdoy, ΑΦΜ: ^compvatno
+
+CT, 33, 670, 18, 000000, 1,^ticketletter^ticketnumber
+
+PT, 24, Y, 8, 000000, 1
+33, 639,^depportdescr ^depdate ^deptime
+200, 639,^depgate
+252, 639,^destportdescr ^arrdate ^arrtime
+414, 639,^vesselname
+33, 600,^ticketletter-^ticketnumber
+135, 600,^bookingref
+252, 600,^bookdate ^booktime
+369, 600,^agencycode/^usercode
+465, 600,^loyaltycard
+33, 560,^pastype
+105, 560,^firstname ^lastname
+415, 560,^birthdate
+495, 560,^nationality
+33, 522,^classname
+105, 522,^cabinno
+252, 522,^discountcode
+415, 522,^gender
+495, 522,^residentno
+33, 482,^priority
+105, 482,^protocol
+252, 482,^netfare
+335, 482,^taxes
+415, 482,^vat
+495, 482,€ ^totalprice
