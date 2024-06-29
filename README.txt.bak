@@ -67,9 +67,6 @@ Q, 10, 10, 100, 1.0, ^QRVAR
 # Set Variable
 V, Name, StringValue
 
-# Write current page so far and create a new one
-N
-
 # Line
 L, fromX, fromY, toX, toY, lineWidth, lineColor, lineOpacity
 

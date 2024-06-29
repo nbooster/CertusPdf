@@ -1,0 +1,116 @@
+T,30,1150,36,0129A6,1,VEHICLE E-TICKET
+
+A,#,1180,840,12,0129A6,1,^compname
+A,#,1160,840,12,0129A6,1,^compaddress, ^compzip - ^compcity
+A,#,1140,840,12,0129A6,1,ΔΟΥ ^compdoy, ΑΦΜ: ^compvatno
+
+L,30,1130,840,1130,2,000000,1
+
+I,30,1020,1,1,1,PNG,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
+
+L,30,960,840,960,2,000000,1
+
+T,30,940,14,0129A6,1,Αναχώρηση/Departure
+T,250,940,14,0129A6,1,Πύλη/Gate 
+T,350,940,14,0129A6,1,Προορισμός/Destination
+T,600,940,14,0129A6,1,Πλοίο/Vessel      
+
+L,30,900,840,900,2,000000,1
+
+T,30,880,14,0129A6,1,Αριθμός Εισιτηρίου
+T,180,880,14,0129A6,1,Αριθμός Κράτησης
+T,330,880,14,0129A6,1,Ημ/νία - Ώρα Έκδοσης
+T,550,880,14,0129A6,1,Πρακτορείο
+T,700,880,14,0129A6,1,Αριθμός Κάρτας
+
+T,30,865,14,0129A6,1,Ticket Number
+T,180,865,14,0129A6,1,Reservation Number
+T,330,865,14,0129A6,1,Issue Date - Time
+T,550,865,14,0129A6,1,Agency
+T,700,865,14,0129A6,1,Loyalty Card Number
+
+L,30,825,840,825,2,000000,1
+
+T,30,805,14,0129A6,1,Αριθμός Κυκλοφορίας
+T,330,805,14,0129A6,1,Κατηγορία Οχήματος
+T,550,805,14,0129A6,1,Έκπτωση
+
+T,30,790,14,0129A6,1,Registartion Number
+T,330,790,14,0129A6,1,Vehicle type
+T,550,790,14,0129A6,1,Discount
+
+L,30,730,840,730,2,000000,1
+
+T,30,710,14,0129A6,1,Αύξων Αριθμός
+T,180,710,14,0129A6,1,Καθαρός Ναύλος
+T,330,710,14,0129A6,1,Κρατήσεις τρίτων
+T,550,710,14,0129A6,1,Φ.Π.Α.
+T,700,710,14,0129A6,1,Σύνολο
+
+T,30,690,14,0129A6,1,Priority Number
+T,180,690,14,0129A6,1,Net Fare
+T,330,690,14,0129A6,1,Taxes
+T,550,690,14,0129A6,1,V.A.T.
+T,700,690,14,0129A6,1,Total
+
+L,30,650,840,650,2,000000,1
+
+T,30,600,11,0129A6,1,OΡΟΙ ΕΙΣΙΤΗΡΙΟΥ ΕΠΙΒΑΤΗ
+
+P, 16, N, N, 7, 0129A6, 1, FFFFFF, 0, 30, 590, J, 840, 2, Y
+1. Το εισιτήριο είναι ατομικό, ονομαστικό, δε μεταβιβάζεται και ισχύει μόνο για τη θέση και το ταξίδι, για το οποίο εκδόθηκε. 2. Στο ναύλο δεν περιλαμβάνεται αντίτιμο τροφοδοσίας. 3. Ο επιβάτης 
+οφείλει να βρίσκεται στο χώρο επιβίβασης του πλοίου μία (1) ώρα πριν την αναχώρηση. Αν δεν προλάβει τον απόπλου δε δικαιούται επιστροφής ναύλου, ενώ αν δηλώσει προ του απόπλου την πρόθεση του να 
+μην πραγματοποιήσει για οποιοδήποτε λόγο το ταξίδι, δικαιούται επιστροφής του ναύλου σύμφωνα με την εμπορική πολιτική και την ισχύουσα νομοθεσία. 4. Παιδιά ηλικίας μέχρι τεσσάρων (4) ετών  
+ταξιδεύουν δωρεάν για τα οποία εκδίδεται υποχρεωτικά μηδενικό εισιτήριο, ενώ παιδιά ηλικίας από τεσσάρων (4) ετών, μέχρι δέκα (10) ετών πληρώνουν εισιτήριο μισής αξίας. 5. Ο κομιστής ολόκληρου 
+εισιτηρίου δικαιούται να μεταφέρει δωρεάν αποσκευές μέχρι 40 χιλιόγραμμων. 6. Σε περίπτωση απώλειας του εισιτηρίου, δεν αντικαθίσταται και δεν επιστρέφεται το αντίτιμό, του παρά μόνο με
+συγκεκριμένη διαδικασία που θα πρέπει να προβλέπεται στην εμπορική πολιτική της εταιρείας. Σε περίπτωση που χαθούν τα εισιτήρια σας θα πρέπει απαραιτήτως να εκδώσετε νέα για να ταξιδέψετε. 
+Στη συνέχεια θα  πρέπει το συντομότερο και σαφώς πριν την ημερομηνία ταξιδιού να συμπληρώσετε μια υπεύθυνη δήλωση για την απώλεια τους αναφέροντας την ημερομηνία, το δρομολόγιο, τους αριθμούς τους 
+καθώς και φωτοτυπίες των νέων. 7. Εφόσον ο επιβάτης διατήρησε τη φύλαξη των αποσκευών του η πλοιοκτήτρια δεν ευθύνεται τυχόν φθορά ή απώλεια των αποσκευών των επιβατών. 8. Τιμαλφή, χρήματα και
+αντικείμενα αξίας μπορούν να παραδοθούν στο λογιστήριο του πλοίου για φύλαξη. 9. Η πλοιοκτήτρια εταιρεία δεν ευθύνεται για τυχόν καθυστέρηση του δρομολογίου, παρέκκλιση και μη τήρηση κανονικής 
+πορείας, που οφείλονται σε κακές καιρικές συνθήκες ή εντολές του ΥΕΝ ή των Λιμενικών Αρχών ή σε λόγους ανωτέρας βίας. 10. Απαγορεύεται στους επιβάτες να μεταφέρουν εκρηκτικές, εμπρηστικές,
+εύφλεκτες και γενικά επικίνδυνες ύλες. 11. Οι επιβάτες ευθύνονται για την τήρηση των Λιμενικών, Υγειονομικών και Τελωνειακών διατάξεων. 12. Οι επιβάτες οφείλουν να συμμορφώνονται με τις οδηγίες 
+του πλοιάρχου και του πληρώματος, που  αφορούν την τήρηση της τάξης και στην ασφάλεια του πλοίου. Οι Οικονομικοί Αξιωματικοί διενεργούν ελέγχους εισιτηρίων κατά την επιβίβαση και κατά τη διάρκεια 
+του ταξιδιού. Κατά τον έλεγχο οι επιβάτες είναι υποχρεωμένοι να επιδεικνύουν τα εισιτήριά τους και τα δικαιολογητικά εμπορικών εκπτώσεων εφόσον έχει εκδοθεί εκπτωτικό εισιτήριο. 13. Για κάθε 
+παράπονο στη διάρκεια του ταξιδιού οι επιβάτες πρέπει να απευθύνονται στον πλοίαρχο ή στον ύπαρχο του πλοίου και μετά το πέρας του ταξιδιού στην πλοιοκτήτρια εταιρεία ή στις Λιμενικές Αρχές. 14.
+Αν για οποιοδήποτε λόγο ματαιωθεί το ταξίδι με υπαιτιότητα υπαιτιότητα της εταιρείας, επιστρέφεται το αντίτιμο του εισιτηρίου προς τον επιβάτη. 15. Η πλοιοκτήτρια εταιρεία έχει το δικαίωμα μετά 
+από έγκριση του ΥΕΝ, να  αντικαταστήσει το πλοίο, για το οποίο εκδόθηκε το εισιτήριο αυτό, με άλλο πλοίο.
+
+T,30,450,11,0129A6,1,ΟΡΟΙ ΑΠΟΔΕΙΞΗΣ ΜΕΤΑΦΟΡΑΣ ΟΧΗΜΑΤΟΣ
+
+P, 7, N, N, 7, 0129A6, 1, FFFFFF, 0, 30, 440, J, 840, 2, Y
+1. Ο οδηγός υποχρεούται να φορτώσει και να εκφορτώσει το όχημα του. 2. Τα οχήματα πρέπει να βρίσκονται στο χώρο αναμονής φόρτωσης μια (1) ώρα πριν τον απόπλου και σε κάθε περίπτωση στο χρόνο  που
+καθορίζεται από τους ισχύοντες Κανονισμούς Λιμένα. 3. Ο οδηγός δε δικαιούται επιστροφής του ναύλου του οχήματος αν δεν προλάβει τον απόπλου του πλοίου, ενώ αν δηλώσει προ του απόπλου την  πρόθεση
+του να μη φορτώσει το όχημα δικαιούται επιστροφής του ποσοστού ναύλου, σύμφωνα με την εμπορική πολιτική. 4. Σε περίπτωση απώλειας της απόδειξης μεταφοράς οχήματος το αντίτιμο δεν επιστρέφεται. 5.
+Οι επιβάτες των οχημάτων υποχρεούνται να αποβιβάζονται από αυτά πριν την φόρτωση τους στο πλοίο. 6. Οι επιβάτες πρέπει να φέρουν μαζί τους αντικείμενα που θα χρειαστούν κατά τη διάρκεια του ταξιδιού.
+Μετά την αναχώρηση απαγορεύεται η είσοδος στο χώρο οχημάτων. 7. Απαγορεύεται η μεταφορά εκρηκτικών εμπρηστικών, εύφλεκτων και επικίνδυνων γενικά υλικών. 8. Η σειρά προτεραιότητας φόρτωσης των 
+οχημάτων καθορίζεται από τους Κανονισμούς Λιμένα κάθε Λιμενικής Αρχής, στην περιοχή όπου γίνεται η φόρτωση και από το πλοίο με βάση τον προορισμό του κάθε αυτοκινήτου. ‘Οι ανωτέρω όροι  ισχύουν υπό 
+την επιφύλαξη της εφαρμογής του ν.3709 /2008 Δικαιώματα - Υποχρεώσεις Επιβατών Μεταφορέων στις τακτικές θαλάσσιες μεταφορές και άλλες διατάξεις (ΦΕΚ 213 Α/14.10.2008).
+
+T,30,370,11,0129A6,1,PASSENGER TICKET TERMS AND CONDITIONS
+
+P, 12, N, N, 7, 0129A6, 1, FFFFFF, 0, 30, 360, J, 840, 2, Y
+1. This ticket is personal, non-transferable and issued in the passenger’s name. It is valid only for the seat and voyage for which it was issued. 2. Meals are not included in the fare. 3. 
+Passenger should be in the embarkation area one (1) hour before departure. Passengers who are not on time for sailing are not entitled to a refund. Passenger who may cancel their ticket for any
+reason before sailing are entitled to a refund of half the ticket price. 4. Children of up to four (4) years of ager travel free of charge and are not entitled to berths. Children between 4 and 10
+year of age payhalf fare and are entitled to berths. 5. A holder of a full fare ticket is entitled to carry aboard luggage of up to 40 kilograms or 0,5 m3 free of charge. 6. In case of loss, a ticket
+is not replaced, and its price is not refunded. 7. The ship-owning company is not responsible for any damage to or loss of luggage that is under the personal care of passenger. 8. Jewelry,  money
+and valuables may behanded to the Purser’s Office for safekeeping. 9. The ship-owning company is not responsible for any delay, deviation and not following of the scheduled course, due to adverse
+weather conditions or orders of the Greek Ministry of Mercantile Marine or the Port Authorities, or due to force majeure. 10. Passengers are not permitted to carry explosive, flammable, incendiary
+and generally dangerous substances. 11. Passengers are responsible for the observing Port, Health and Customs regulations. 12. Passengers should comply with the Master’s and crew’s directions for 
+maintaining order and ensuring safety aboard. 13. During the voyage, all passenger complaints should be made to the Ship’s Master or First Officer and, after the completion of the voyage, to the 
+ship-owning company or the Port Authorities. 14. If for any reason the voyage is canceled and such cancelation is due to the ship, the fare will be refunded with no further obligation on the part 
+of the ship-owning company to the passenger. 15. The ship-owning company has the right, with the approval of the Greek Ministry of Mercantile Marine, to replace the ship for which this ticket
+was issued, with another ship.
+
+T,30,250,11,0129A6,1,TERMS AND CONDITIONS FOR VEHICLE TRANSPORT VOUCHERS
+
+P, 7, N, N, 7, 0129A6, 1, FFFFFF, 0, 30, 240, J, 840, 2, Y
+1. The driver is obliged to embark and disembark his/her vehicle. 2. Vehicles must be in the waiting area to be embarked one (1) hour before sailing and in any case at the time specified in the 
+applicable Port Regulations. 3. Drivers who are not on time for sailing are not entitled to refund. Drivers who, before sailing, may make known that they do not intend to embark their vehicles are
+entitled to refund of half the ticket price. 4. In case of loss of the vehicle transport voucher, the fare is not refunded. 5. Vehicle passengers are obliged to alight before vehicles are embarked
+aboard. 6. Passengers should have with them the items they may need during the voyages. After departure, entry to the vehicle area is forbitten. 7. Passengers are not permitted to carry explosive
+incendiary, flammable and generally dangerous substances. 8. The order of priority of vehicle embarkation is determined in the Port Regulations of every Port Authority, in the region of  which
+embarkation occurs. The Terms and Conditions above are not applicable to overseas voyages. The above mentioned terms apply under the reservation or the implementation of Law 3709/2008 
+“Passengers and Transporters Rights and Obligations at Regular Maritime Transports and other provisions”.
+
+T,700,20,12,000000,1,Powered by Certus Online

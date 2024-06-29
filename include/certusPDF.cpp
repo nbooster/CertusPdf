@@ -628,13 +628,15 @@ static void writePage
     const bool withVars = false
     )
 {
+    const pdfRectangle = PDFRectangle(0, 0, dimX, dimY);
+
     bool writePDF = false;
 
     if (pdfPage == nullptr)
     {
         pdfPage = new PDFPage();
 
-        pdfPage->SetMediaBox(PDFRectangle(0, 0, dimX, dimY));
+        pdfPage->SetMediaBox(pdfRectangle);
 
         writePDF = true;
     }
@@ -678,6 +680,22 @@ static void writePage
 
         switch (line[0])
         {
+            case 'N':
+
+                pdfWriter.EndPageContentContext(pageContentContext);
+
+                pdfWriter.WritePageAndRelease(pdfPage);
+
+                pdfPage = new PDFPage();
+
+                pdfPage->SetMediaBox(pdfRectangle);
+
+                writePDF = true;
+
+                pageContentContext = pdfWriter.StartPageContentContext(pdfPage);
+
+                break;
+
             case 'V':
 
                 if (not withVars)
