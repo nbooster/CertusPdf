@@ -15,6 +15,8 @@ pdf report with many more to be added and uppon requests or contributions.
 
 *It also has a command for automatic qr-code image in a pdf page from a string input.
 
+**Use this site: to reduce font size and make the process even faster:
+https://www.fontsquirrel.com/tools/webfont-generator
 
 Many thanks to these libs authors:
 
@@ -26,10 +28,9 @@ without them, this project could not be possible,
 and https://certusonline.com for sponsoring it.
 
 
-
 Creates one thread per input page... so have that in mind (possible to make that optional or dynamic).
 
-See the main.cpp example for usage (very simple).
+See the main.cpp example for usage.
 
 
 Compile:
